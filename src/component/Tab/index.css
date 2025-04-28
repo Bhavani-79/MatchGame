@@ -1,0 +1,31 @@
+.tab-container-item {
+  list-style-type: none;
+  display: flex;
+  margin: 10px;
+}
+.tab-button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.displayText {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: roboto;
+}
+.active-class {
+  color: #fec653;
+  font-size: 30px;
+  font-family: roboto;
+  border-bottom: 1px solid #fec653;
+}
+
+@media screen and (max-width: 786px) {
+  .displayText {
+    font-size: 20px;
+  }
+  .active-class {
+    font-size: 25px;
+  }
+}

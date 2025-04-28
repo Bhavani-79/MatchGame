@@ -1,0 +1,19 @@
+.image-item-container {
+  list-style-type: none;
+  margin: 10px;
+}
+.image {
+  height: 120px;
+  width: 120px;
+}
+.image-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 786px) {
+  .image {
+    height: 80px;
+    width: 80px;
+  }
+}
